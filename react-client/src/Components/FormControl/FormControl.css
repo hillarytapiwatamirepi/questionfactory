@@ -1,0 +1,338 @@
+.formControlBody{
+
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:60px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 9px;
+    background-color: #cf9423;
+
+
+}
+
+.formControlContainer{
+
+
+    position: fixed;
+    left: 1150px;
+
+
+
+ 
+}
+.spawnCardcontainer{
+
+ 
+    display: flex;
+    align-items:center;
+    width:60px;
+    height:60px;
+    visibility: visible;
+    background-image: url("../images/addCard.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left 50% top 50%, 0 0;
+    background-size: 50px auto, 100%;
+    
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+
+}
+
+.spawnCardcontainer:hover{
+
+
+    background-color:white;
+
+}
+
+.spawnCardcontainer:hover .spawnCardContainerSpan{
+
+
+    visibility:visible;  
+    z-index:999;
+    width:70px;
+    height:20px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: black; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    transform: translateX(6em);
+    transition:transform 0.1s;
+
+}
+
+.spawnCardContainerSpan{
+
+    visibility:hidden;
+    width:70px;
+    height:20px;
+    text-align: center;
+    z-index:1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    
+    
+}
+
+
+/* Section Container */
+
+.spawnSectionContainer{
+
+ 
+    display: flex;
+    align-items:center;
+    width:60px;
+    height:60px;
+    visibility: visible;
+  
+    background-image: url("../images/addSection.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left 50% top 50%, 0 0;
+    background-size: 50px auto, 100%;
+
+    
+}
+
+.spawnSectionContainerSpan{
+
+    visibility:hidden;
+    width:70px;
+    height:20px;
+    text-align: center;
+    z-index:1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+
+}
+
+.spawnSectionContainer:hover{
+
+
+    background-color: white;
+
+
+}
+
+.spawnSectionContainer:hover .spawnSectionContainerSpan{
+
+    visibility:visible;  
+    z-index:999;
+    width:70px;
+    height:20px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: black; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    transform: translateX(6em);
+    transition:transform 0.1s
+
+
+}
+
+
+/*  */
+/* Change theme */
+
+.changeThemeContainer{
+
+ 
+    display: flex;
+    align-items:center;
+    width:60px;
+    height:60px;
+    visibility: visible;
+    background-image: url("../images/theme.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left 50% top 50%, 0 0;
+    background-size: 50px auto, 100%;
+    
+
+
+
+}
+
+.changeThemeContainer:hover{
+
+
+    background-color:white;
+
+}
+
+.changeThemeContainer:hover .changeThemeContainerSpan{
+
+
+    visibility:visible;  
+    z-index:999;
+    width:100px;
+    height:20px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: black; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    transform: translateX(6em);
+    transition:transform 0.1s;
+
+}
+
+.changeThemeContainerSpan{
+
+    visibility:hidden;
+    width:100px;
+    height:20px;
+    text-align: center;
+    z-index:1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    
+    
+}
+/* Title and Description */
+
+
+.spawnTitleDescriptionContainer{
+
+ 
+    display: flex;
+    align-items:center;
+    width:60px;
+    height:60px;
+    visibility: visible;
+    background-image: url("../images/text.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left 50% top 50%, 0 0;
+    background-size: 50px auto, 100%;
+    
+
+
+
+}
+
+.spawnTitleDescriptionContainer:hover{
+
+
+    background-color:white;
+
+}
+
+.spawnTitleDescriptionContainer:hover .spawnTitleDescriptionContainerSpan{
+
+
+    visibility:visible;  
+    z-index:999;
+    width:150px;
+    height:20px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: black; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    transform: translateX(6em);
+    transition:transform 0.1s;
+
+}
+
+.spawnTitleDescriptionContainerSpan{
+
+    visibility:hidden;
+    width:200px;
+    height:20px;
+    text-align: center;
+    z-index:1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    
+    
+}
+
+/* Add Video */
+
+.spawnVideoContainer{
+
+ 
+    display: flex;
+    align-items:center;
+    width:60px;
+    height:60px;
+    visibility: visible;
+    background-image: url("../images/video-player.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left 50% top 50%, 0 0;
+    background-size: 50px auto, 100%;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    
+
+
+
+}
+
+.spawnVideoContainer:hover{
+
+
+    background-color:white;
+
+}
+
+.spawnVideoContainer:hover .spawnVideoSpan{
+
+
+    visibility:visible;  
+    z-index:999;
+    width:70px;
+    height:20px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: black; 
+    opacity: 0.9; 
+    border-radius: 3px;
+    transform: translateX(6em);
+    transition:transform 0.1s;
+
+}
+
+.spawnVideoSpan{
+
+    visibility:hidden;
+    width:70px;
+    height:20px;
+    text-align: center;
+    z-index:1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:11px;
+    
+    
+}

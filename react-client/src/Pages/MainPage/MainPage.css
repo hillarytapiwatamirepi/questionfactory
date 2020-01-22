@@ -1,0 +1,132 @@
+.mainPageContainer{
+
+    display: flex;
+    width:650px;
+    height:750px;
+    background-color: #cf9423;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius:10px;
+    align-items: center;
+
+
+}
+
+.mainPageFormalities{
+    display: flex;
+    width:500px;
+    flex-direction: row;
+
+    
+    
+   justify-content:  space-evenly;
+
+ 
+
+}
+.mainPageGreeting{
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    align-self: flex-end;
+    color:white; 
+
+
+
+}
+.mainPageAccessories{
+
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+
+
+}
+
+.mainPageProfileContainer{
+
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    /* background-image: url("../../Components/images/67578455_450680848819497_8993604807075823616_o.jpg"); */
+    background-repeat: no-repeat, repeat;
+	/* background-position: left 50% top 50%, 50% 50%; */
+    background-size: 100%;
+    border-radius: 100%;
+
+}
+
+.mainPageLogoContainer{
+display: flex;
+align-self: flex-start;
+    width:60px;
+    height:40px;
+    /* border-radius: 50px; */
+
+  
+
+    background-image: url("../../Components/images/Eko\ Logo\ \(1\).jpg");
+    background-repeat: no-repeat, repeat;
+	/* background-position: left 50% top 50%, 50% 50%; */
+    background-size:  100%;
+
+
+}
+
+.mainPageLinks{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.mainPageLink{
+    display: flex;
+   color:white;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size:30px;
+   width:500px;
+   height:90px;
+   justify-content: center;
+
+   align-items: center;
+   border-top:1px solid white;
+
+   
+
+
+
+}
+
+.mainPageLink a{
+
+    color:white;
+    text-decoration: none;
+
+    
+ 
+ 
+ 
+ }
+
+.mainPageLink:hover{
+
+   
+    background-color: white;
+
+}
+.mainPageLink:hover a{
+
+    color:#cf9423;
+
+
+}

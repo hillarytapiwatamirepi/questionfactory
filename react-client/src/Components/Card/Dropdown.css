@@ -1,0 +1,138 @@
+
+.optionsSelectionContainer{
+  
+    height:50px;
+
+
+}
+.optionsSelectionTextContainer{
+
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width:150px;
+    height:20px;
+    padding-left:10px;
+    padding-top: 15px;
+    background-image: url("../images/down-chevron.png");
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    
+}
+
+.optionsSelectionText{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+  
+
+}
+
+
+
+
+
+.optionsListContainer{
+
+
+    visibility:hidden;
+    opacity: 0;
+    
+   
+    
+    transform: translateY(-0.5em);
+  
+    -webkit-transition: visibility 1s,opacity 1s;
+    transition: visibility 1s,transform 1s,opacity 1s;
+   
+
+
+}
+
+.optionsListContainerAlternate{
+
+
+    visibility:visible;
+    opacity: 1;
+   
+    transform: translateY(0.5em);
+    -webkit-transition: visibility 1s,opacity 1s;
+    transition: visibility 1s,transform 1s,opacity 1s;
+    
+ 
+
+}
+
+.optionsSelectionTextContainerAlternate{
+
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width:150px;
+    height:20px;
+    padding-left:10px;
+    padding-top: 15px;
+    background-image: url("../images/up-arrow.png");
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+   
+}
+ul{
+    margin-top:0;
+    padding-left:0;
+    width:160px;
+    list-style-type: none;
+    background-color: white;
+}
+
+li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top:10px;
+    font-size: 16;
+    /* padding-left: 40px; */
+ 
+    text-align: center;
+   
+    border-bottom: 1px solid grey;
+    width:160px;
+    height: 35px;
+
+}
+
+li:hover{
+
+    background-color: #e9ebee;
+
+
+}
+
+.radiobutton{
+
+    background-image: url("../images/radio-on-button.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;
+}
+.check{
+    background-image: url("../images/black-check-box-with-white-check.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;
+}
+.image{
+
+    background-image: url("../images/photo-interface-symbol-with-mountains-landscape.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;  
+}
+.text{
+    background-image: url("../images/justify.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;  
+}
+
