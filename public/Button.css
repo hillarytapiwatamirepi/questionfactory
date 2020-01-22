@@ -1,0 +1,151 @@
+/* this button is for question factory */
+
+#mybutton{
+
+    width: 65px;
+    height: 65px;
+
+
+    border-width:15px;
+    border-style: solid;
+    /* border-color:#146012;
+     */
+
+     
+     border-color:#90ee90;
+    border-radius:100%;
+    background: -webkit-linear-gradient(180deg, transparent 0%, transparent 46%,white 36%, white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(90deg, transparent 0%, transparent 46%,white 36%,  white 56%,transparent 56%, transparent 100%);
+    /* background-color:#146012; */
+    background-color:#90ee90;
+}
+/* #mybutton:hover{
+
+    transform: rotate(45deg)
+} */
+
+/* #card-header{
+
+    padding-bottom: 20px;
+} */
+/* this is the body */
+#body{
+    display:flex;
+    flex-direction: row;
+    /* margin: 3cm; */
+    /* background-color: #e9ebee; */
+    /* align-self: center;   */
+}
+/* body{
+
+    color: #e9ebee;
+    background-color: #e9ebee
+} */
+/* this side floats right */
+/* stores #mybutton */
+#factory{
+
+margin-top: 2cm;
+/* float:right; */
+width:10%;
+padding-left:2cm;
+/* background-color: #e9ebee; */
+/* position: relative; */
+
+
+}
+
+/* this stores the cards in a section */
+
+#section{
+
+/* float:left; */
+display: flex;
+/* align-content: center; */
+flex-direction: row;
+width:80%;
+
+border-right:1px #d8d8dd solid 
+
+
+}
+#card-section{
+
+    /* float:left; */
+    display: flex;
+    /* align-content: center; */
+    flex-direction: column;
+    width:90%;
+
+    height:1000px;
+    
+    border-right:1px #d8d8dd solid;
+    /* overflow:auto; */
+    /* overflow: hidden; */
+    padding-left:10px;
+    
+    }
+#card-controler{
+width:10%;
+display:flex;
+justify-content: center;
+
+}
+#master-control{
+
+    border-radius: 20%;
+    border:1px #d8d8dd solid;
+    width:60px;
+    height:100px;
+    /* width: */
+
+
+}
+
+
+/* #right-nav{
+
+    width:10%;
+    border-right:1px #d8d8dd solid 
+} */
+/* general for card */
+
+@media only screen and (max-width:400px) {
+    /* For mobile phones: */
+    #right-nav{
+
+        width:0%;
+    }
+
+    #section{
+        width:40%;
+    }
+
+    #factory{
+
+        width:50%;
+    }
+
+}
+
+@media only screen and (max-width:1040px) {
+    /* For mobile phones: */
+    #right-nav{
+
+        width:0%;
+    }
+
+    /* #section{
+        width:90%;
+    } */
+
+    #factory{
+
+        width:10%;
+    }
+
+    #card{
+        width:90%;
+
+    }
+
+}

@@ -1,0 +1,192 @@
+#card{
+
+    width:650px;
+    height:325px;
+    border:0.5mm grey solid;
+    border-radius: 30px;
+    margin:10px;
+    
+}
+
+
+
+#close_button_div{
+
+    float:right;
+    padding: 10px;
+
+}
+
+.close_button{
+
+    
+    width:10px;
+    height:10px;
+    border-width:2px;
+    border-style: solid;
+    border-color:red;
+    border-radius:100%;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%,black 46%,  black 56%,transparent 56%, transparent 100%);
+    background-color:red;
+}
+
+.main_text_area_div{
+
+    padding-top:50px;
+    padding-bottom:30px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+#main_text{
+
+ width:475px;
+ height:20px;
+ font-size:16px;
+ /* border:transparent; */
+ outline:0;
+ border-style:none;
+
+ border-bottom: 1px solid grey;
+
+
+}
+
+.options{
+
+    /* float:left; */
+    width:80%;
+    /* float:left; */
+
+
+}
+
+.controls{
+
+  
+    width:20%;
+    /* float:right */
+
+
+}
+
+
+#card-body{
+    display:flex;
+    flex-direction: row;
+    padding-top:40px;
+    padding-left:20px;
+
+
+
+}
+.my-input-group{
+    display:flex;
+    flex-direction: row;
+    padding-bottom:20px;
+}
+.my-input-group-prepend{
+
+    /* padding:5px; */
+    /* margin-bottom: -10px; */
+    width:18px;
+    height:18px;
+}
+.option_text{
+
+    width:350px;
+    height:15px;
+    font-size:14px;
+  
+    outline:0;
+    border-style:none;
+   
+    border-bottom: 1px solid grey;
+   
+
+}
+
+
+.close_option{
+
+    width:10px;
+    height:10px;
+
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, grey 46%,grey 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%,grey 46%,  grey 56%,transparent 56%, transparent 100%);
+    background-color:white;
+
+}
+
+.spawn_option_button{
+
+    width:25px;
+    height:25px;
+    border-width:4px;
+    border-style: solid;
+    border-color:#146012;
+    border-radius:100%;
+    background: -webkit-linear-gradient(180deg, transparent 0%, transparent 46%,white 36%, white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(90deg, transparent 0%, transparent 46%,white 36%,  white 56%,transparent 56%, transparent 100%);
+    background-color:#146012;
+
+}
+
+@media only screen and (max-width:400px) {
+    /* For mobile phones: */
+    body {
+      background-color: red;
+    }
+}
+
+select{
+
+	font-size: 16px;
+	font-family: sans-serif;
+
+
+
+    padding-left:10px;
+
+    width: 150px;
+    height: 30px;
+
+   
+    outline: 0;
+    border-style: none;
+   
+    border-bottom: 0.5px solid grey;
+    background-color: white;
+
+
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	background-image: url('./down-chevron.png');
+
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+	background-size: .65em auto, 100%;
+}
+
+
+
+
+/* .controls-select::-ms-expand {
+	display: none;
+}
+.controls-select:hover {
+	border-color: #888;
+} */
+/* .controls-select:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.controls-select option {
+	font-weight:normal;
+} */
+
+
+

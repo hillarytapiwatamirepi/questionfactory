@@ -1,0 +1,129 @@
+.options-selection-placeholder{
+
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width:200px;
+    height:35px;
+    padding-left:10px;
+    padding-top: 15px;
+    background-image: url("./down-chevron.png");
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    background-color: #e9ebee;
+
+
+}
+
+.o-s-p-text{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+
+
+.options-selection-options{
+
+
+    visibility:hidden;
+    opacity: 0;
+    
+   
+    
+    transform: translateY(-0.5em);
+  
+    -webkit-transition: visibility 1s,opacity 1s;
+    transition: visibility 1s,transform 1s,opacity 1s;
+   
+
+
+}
+
+.options-selection-options-alternate{
+
+
+    visibility:visible;
+    opacity: 1;
+   
+    transform: translateY(0.5em);
+    -webkit-transition: visibility 1s,opacity 1s;
+    transition: visibility 1s,transform 1s,opacity 1s;
+    
+ 
+
+}
+
+.options-selection-placeholder-alternate{
+
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width:200px;
+    height:35px;
+    padding-left:10px;
+    padding-top: 15px;
+    background-image: url("./up-arrow.png");
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    background-color: #e9ebee;
+
+}
+ul{
+    margin-top:0;
+    padding-left:0;
+    width:210px;
+    list-style-type: none;
+}
+
+li{
+    font-family: sans-serif;
+    padding-top:10px;
+    /* padding-left: 40px; */
+ 
+    text-align: center;
+   
+    border-bottom: 1px solid grey;
+    width:210px;
+    height: 30px;
+
+}
+
+li:hover{
+
+    background-color: #e9ebee;
+
+
+}
+
+.radio{
+
+    background-image: url("./radio-on-button.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;
+}
+.check{
+    background-image: url("./black-check-box-with-white-check.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;
+}
+.image{
+
+    background-image: url("./photo-interface-symbol-with-mountains-landscape.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;  
+}
+.text{
+    background-image: url("./justify.png");
+
+	background-repeat: no-repeat, repeat;
+	background-position: left .7em top 40%, 0 0;
+    background-size: 1em auto, 100%;  
+}
+
